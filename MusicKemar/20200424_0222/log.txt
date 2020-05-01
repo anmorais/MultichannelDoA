@@ -1,0 +1,205 @@
+2020-04-24 02:22:56,789 Load transfer functions kemar
+2020-04-24 02:22:56,789 Number of runs 50
+2020-04-24 02:22:56,789 Noise in decibel 20
+2020-04-24 02:22:56,789 Number of sources 1
+2020-04-24 02:22:56,816 Number of frequencies 65
+2020-04-24 02:22:57,544 Actual DoAs: [309]
+2020-04-24 02:22:57,544 MUSIC DoAs: [ 70  83  94 100 116 119 121 131 134 146 167]
+2020-04-24 02:22:57,544 Run 0 : 
+2020-04-24 02:22:57,544 Found 11 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:22:58,303 Actual DoAs: [206]
+2020-04-24 02:22:58,303 MUSIC DoAs: [ 83 101 117 130 154 167 175]
+2020-04-24 02:22:58,304 Run 1 : 
+2020-04-24 02:22:58,304 Found 7 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:22:59,132 Actual DoAs: [187]
+2020-04-24 02:22:59,133 MUSIC DoAs: [ 83 123 126 134 140 145 162 167]
+2020-04-24 02:22:59,133 Run 2 : 
+2020-04-24 02:22:59,133 Found 8 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:22:59,898 Actual DoAs: [287]
+2020-04-24 02:22:59,898 MUSIC DoAs: [ 74  94  97 112 120 129 145 167 176]
+2020-04-24 02:22:59,898 Run 3 : 
+2020-04-24 02:22:59,898 Found 9 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:00,671 Actual DoAs: [302]
+2020-04-24 02:23:00,671 MUSIC DoAs: [ 83  86 104 111 117 127 143 166 176]
+2020-04-24 02:23:00,671 Run 4 : 
+2020-04-24 02:23:00,671 Found 9 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:01,360 Actual DoAs: [14]
+2020-04-24 02:23:01,360 MUSIC DoAs: [ 83  97 111 121 126 130 133 135 141 146 157 167 169]
+2020-04-24 02:23:01,360 Run 5 : 
+2020-04-24 02:23:01,360 Found 13 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:02,054 Actual DoAs: [144]
+2020-04-24 02:23:02,054 MUSIC DoAs: [128 144 171]
+2020-04-24 02:23:02,054 Run 6 : 
+2020-04-24 02:23:02,054 Found 3 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:02,730 Actual DoAs: [4]
+2020-04-24 02:23:02,730 MUSIC DoAs: [ 83  96 110 122 125 129 133 136 140 146 160 176]
+2020-04-24 02:23:02,731 Run 7 : 
+2020-04-24 02:23:02,731 Found 12 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:03,418 Actual DoAs: [218]
+2020-04-24 02:23:03,418 MUSIC DoAs: [ 83  90  97 112 122 142 155 160 167 170]
+2020-04-24 02:23:03,418 Run 8 : 
+2020-04-24 02:23:03,418 Found 10 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:04,088 Actual DoAs: [124]
+2020-04-24 02:23:04,088 MUSIC DoAs: [108 114 124 145 163 167 178]
+2020-04-24 02:23:04,089 Run 9 : 
+2020-04-24 02:23:04,089 Found 7 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:04,763 Actual DoAs: [250]
+2020-04-24 02:23:04,764 MUSIC DoAs: [ 83 107 110 144 167]
+2020-04-24 02:23:04,764 Run 10 : 
+2020-04-24 02:23:04,765 Found 5 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:05,485 Actual DoAs: [172]
+2020-04-24 02:23:05,486 MUSIC DoAs: [ 83  97 119 129 146 172]
+2020-04-24 02:23:05,486 Run 11 : 
+2020-04-24 02:23:05,486 Found 6 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:06,173 Actual DoAs: [2]
+2020-04-24 02:23:06,173 MUSIC DoAs: [ 96 101 120 123 130 133 140 145 149 156 161 167 169 173]
+2020-04-24 02:23:06,174 Run 12 : 
+2020-04-24 02:23:06,174 Found 14 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:06,904 Actual DoAs: [244]
+2020-04-24 02:23:06,904 MUSIC DoAs: [ 91  98 102 107 116 129 145 151 167]
+2020-04-24 02:23:06,905 Run 13 : 
+2020-04-24 02:23:06,905 Found 9 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:07,625 Actual DoAs: [45]
+2020-04-24 02:23:07,625 MUSIC DoAs: [ 83  97 115 120 129 136 138 146 157 161 167 169]
+2020-04-24 02:23:07,625 Run 14 : 
+2020-04-24 02:23:07,625 Found 12 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:08,339 Actual DoAs: [128]
+2020-04-24 02:23:08,339 MUSIC DoAs: [ 83  99 112 114 128 147 153 167]
+2020-04-24 02:23:08,339 Run 15 : 
+2020-04-24 02:23:08,339 Found 8 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:09,059 Actual DoAs: [215]
+2020-04-24 02:23:09,059 MUSIC DoAs: [ 83  97 113 116 126 144 167 175]
+2020-04-24 02:23:09,059 Run 16 : 
+2020-04-24 02:23:09,059 Found 8 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:09,774 Actual DoAs: [145]
+2020-04-24 02:23:09,774 MUSIC DoAs: [ 83 130 145 167 172]
+2020-04-24 02:23:09,774 Run 17 : 
+2020-04-24 02:23:09,774 Found 5 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:10,473 Actual DoAs: [101]
+2020-04-24 02:23:10,473 MUSIC DoAs: [ 83 101 119 129 145 158 167]
+2020-04-24 02:23:10,473 Run 18 : 
+2020-04-24 02:23:10,473 Found 7 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:11,167 Actual DoAs: [106]
+2020-04-24 02:23:11,167 MUSIC DoAs: [ 83  90 106 119 124 145 167]
+2020-04-24 02:23:11,167 Run 19 : 
+2020-04-24 02:23:11,167 Found 7 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:11,858 Actual DoAs: [282]
+2020-04-24 02:23:11,858 MUSIC DoAs: [ 79  83 100 105 119 132 146 148 167]
+2020-04-24 02:23:11,858 Run 20 : 
+2020-04-24 02:23:11,858 Found 9 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:12,550 Actual DoAs: [180]
+2020-04-24 02:23:12,551 MUSIC DoAs: [ 83  97 129 133 145]
+2020-04-24 02:23:12,551 Run 21 : 
+2020-04-24 02:23:12,551 Found 5 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:13,236 Actual DoAs: [350]
+2020-04-24 02:23:13,236 MUSIC DoAs: [ 83 105 112 114 122 126 129 139 148 158 167]
+2020-04-24 02:23:13,236 Run 22 : 
+2020-04-24 02:23:13,236 Found 11 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:13,947 Actual DoAs: [200]
+2020-04-24 02:23:13,948 MUSIC DoAs: [ 83  92  96 112 122 133 147 155 157 161 168]
+2020-04-24 02:23:13,948 Run 23 : 
+2020-04-24 02:23:13,948 Found 11 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:14,694 Actual DoAs: [16]
+2020-04-24 02:23:14,694 MUSIC DoAs: [ 83 102 118 121 123 127 137 144 159 167 170 178]
+2020-04-24 02:23:14,694 Run 24 : 
+2020-04-24 02:23:14,695 Found 12 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:15,386 Actual DoAs: [173]
+2020-04-24 02:23:15,387 MUSIC DoAs: [ 83 117 130 136 145 173]
+2020-04-24 02:23:15,387 Run 25 : 
+2020-04-24 02:23:15,387 Found 6 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:16,078 Actual DoAs: [132]
+2020-04-24 02:23:16,078 MUSIC DoAs: [ 83 110 119 132 147 151 154 158 168]
+2020-04-24 02:23:16,078 Run 26 : 
+2020-04-24 02:23:16,078 Found 9 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:16,773 Actual DoAs: [315]
+2020-04-24 02:23:16,773 MUSIC DoAs: [ 83  99 101 117 121 124 129 140 146 153 167]
+2020-04-24 02:23:16,773 Run 27 : 
+2020-04-24 02:23:16,774 Found 11 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:17,485 Actual DoAs: [338]
+2020-04-24 02:23:17,485 MUSIC DoAs: [ 97 121 129 133 141 150 160 167 175]
+2020-04-24 02:23:17,485 Run 28 : 
+2020-04-24 02:23:17,485 Found 9 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:18,159 Actual DoAs: [225]
+2020-04-24 02:23:18,159 MUSIC DoAs: [ 84  95 106 112 116 122 134 163 167 175]
+2020-04-24 02:23:18,160 Run 29 : 
+2020-04-24 02:23:18,160 Found 10 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:18,848 Actual DoAs: [293]
+2020-04-24 02:23:18,849 MUSIC DoAs: [ 93 107 119 145 167]
+2020-04-24 02:23:18,849 Run 30 : 
+2020-04-24 02:23:18,849 Found 5 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:19,546 Actual DoAs: [63]
+2020-04-24 02:23:19,547 MUSIC DoAs: [ 83 111 123 127 138 144 167 174]
+2020-04-24 02:23:19,547 Run 31 : 
+2020-04-24 02:23:19,547 Found 8 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:20,245 Actual DoAs: [128]
+2020-04-24 02:23:20,246 MUSIC DoAs: [ 98 112 128 141 146 167]
+2020-04-24 02:23:20,246 Run 32 : 
+2020-04-24 02:23:20,247 Found 6 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:20,927 Actual DoAs: [75]
+2020-04-24 02:23:20,927 MUSIC DoAs: [ 83  90  92  96 100 103 111 117 132 146 167]
+2020-04-24 02:23:20,927 Run 33 : 
+2020-04-24 02:23:20,927 Found 11 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:21,611 Actual DoAs: [281]
+2020-04-24 02:23:21,612 MUSIC DoAs: [ 80  99 129 145 167]
+2020-04-24 02:23:21,612 Run 34 : 
+2020-04-24 02:23:21,612 Found 5 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:22,289 Actual DoAs: [102]
+2020-04-24 02:23:22,289 MUSIC DoAs: [ 83  88 102 119 130 145 153 167]
+2020-04-24 02:23:22,290 Run 35 : 
+2020-04-24 02:23:22,290 Found 8 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:22,963 Actual DoAs: [124]
+2020-04-24 02:23:22,963 MUSIC DoAs: [107 112 124 145 150 160 167]
+2020-04-24 02:23:22,963 Run 36 : 
+2020-04-24 02:23:22,963 Found 7 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:23,657 Actual DoAs: [270]
+2020-04-24 02:23:23,657 MUSIC DoAs: [ 70  83  91 101 110 145 167]
+2020-04-24 02:23:23,657 Run 37 : 
+2020-04-24 02:23:23,657 Found 7 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:24,351 Actual DoAs: [282]
+2020-04-24 02:23:24,351 MUSIC DoAs: [ 79 100 110 129 145 167]
+2020-04-24 02:23:24,351 Run 38 : 
+2020-04-24 02:23:24,351 Found 6 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:25,032 Actual DoAs: [15]
+2020-04-24 02:23:25,032 MUSIC DoAs: [ 92  95 103 112 120 130 140 150 159 164 167]
+2020-04-24 02:23:25,033 Run 39 : 
+2020-04-24 02:23:25,033 Found 11 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:25,724 Actual DoAs: [312]
+2020-04-24 02:23:25,724 MUSIC DoAs: [ 93  99 108 120 132 146 150 167]
+2020-04-24 02:23:25,724 Run 40 : 
+2020-04-24 02:23:25,725 Found 8 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:26,430 Actual DoAs: [56]
+2020-04-24 02:23:26,430 MUSIC DoAs: [ 83 108 114 121 124 133 138 140 145 150 152 157 167 171]
+2020-04-24 02:23:26,431 Run 41 : 
+2020-04-24 02:23:26,431 Found 14 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:27,242 Actual DoAs: [358]
+2020-04-24 02:23:27,242 MUSIC DoAs: [ 83  98 133 137 140 146 150 155 159 168]
+2020-04-24 02:23:27,242 Run 42 : 
+2020-04-24 02:23:27,243 Found 10 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:27,944 Actual DoAs: [269]
+2020-04-24 02:23:27,944 MUSIC DoAs: [ 92 101 106 111 116 145 167]
+2020-04-24 02:23:27,944 Run 43 : 
+2020-04-24 02:23:27,944 Found 7 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:29,210 Actual DoAs: [181]
+2020-04-24 02:23:29,211 MUSIC DoAs: [ 83 130 133 144 159 168]
+2020-04-24 02:23:29,211 Run 44 : 
+2020-04-24 02:23:29,211 Found 6 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:29,906 Actual DoAs: [30]
+2020-04-24 02:23:29,906 MUSIC DoAs: [ 83  97 128 131 133 136 139 143 146 148 156 161 164 167 177]
+2020-04-24 02:23:29,907 Run 45 : 
+2020-04-24 02:23:29,907 Found 15 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:30,607 Actual DoAs: [29]
+2020-04-24 02:23:30,607 MUSIC DoAs: [ 83  95  97 114 116 125 129 131 135 141 151 158 165 167 178]
+2020-04-24 02:23:30,607 Run 46 : 
+2020-04-24 02:23:30,608 Found 15 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:31,366 Actual DoAs: [258]
+2020-04-24 02:23:31,366 MUSIC DoAs: [ 78  83  97 102 113 129 145 154 167]
+2020-04-24 02:23:31,366 Run 47 : 
+2020-04-24 02:23:31,366 Found every source but found 8 more sources
+2020-04-24 02:23:32,072 Actual DoAs: [210]
+2020-04-24 02:23:32,072 MUSIC DoAs: [ 83  97 115 128 149 177]
+2020-04-24 02:23:32,072 Run 48 : 
+2020-04-24 02:23:32,072 Found 6 wrong source(s) and didn't find 1 source(s)
+2020-04-24 02:23:32,788 Actual DoAs: [77]
+2020-04-24 02:23:32,789 MUSIC DoAs: [ 90  92  96 103 108 112 121 130 133 167]
+2020-04-24 02:23:32,789 Run 49 : 
+2020-04-24 02:23:32,789 Found 10 wrong source(s) and didn't find 1 source(s)

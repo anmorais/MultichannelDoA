@@ -1,0 +1,54 @@
+2020-05-01 10:53:36,622 Load transfer functions Omnidirectional
+2020-05-01 10:53:36,622 Number of runs 20
+2020-05-01 10:53:36,622 Noise in decibel 0
+2020-05-01 10:53:36,622 Number of sources 1
+2020-05-01 10:53:36,622 Number of samples 256
+2020-05-01 10:53:37,286 Test 0, theta: [164.], theta_hat: [314.], err: 150.0
+2020-05-01 10:53:37,924 Test 1, theta: [158.], theta_hat: [358.], err: 160.0
+2020-05-01 10:53:38,560 Test 2, theta: [54.], theta_hat: [230.], err: 176.0
+2020-05-01 10:53:39,201 Test 3, theta: [102.], theta_hat: [358.], err: 104.0
+2020-05-01 10:53:39,827 Test 4, theta: [248.], theta_hat: [358.], err: 110.0
+2020-05-01 10:53:40,448 Test 5, theta: [198.], theta_hat: [358.], err: 160.0
+2020-05-01 10:53:41,073 Test 6, theta: [132.], theta_hat: [340.], err: 152.0
+2020-05-01 10:53:41,701 Test 7, theta: [124.], theta_hat: [358.], err: 126.0
+2020-05-01 10:53:42,329 Test 8, theta: [340.], theta_hat: [358.], err: 18.0
+2020-05-01 10:53:42,952 Test 9, theta: [144.], theta_hat: [352.], err: 152.0
+2020-05-01 10:53:43,572 Test 10, theta: [338.], theta_hat: [358.], err: 20.0
+2020-05-01 10:53:44,238 Test 11, theta: [328.], theta_hat: [358.], err: 30.0
+2020-05-01 10:53:44,873 Test 12, theta: [114.], theta_hat: [280.], err: 166.0
+2020-05-01 10:53:45,581 Test 13, theta: [272.], theta_hat: [358.], err: 86.0
+2020-05-01 10:53:46,316 Test 14, theta: [212.], theta_hat: [354.], err: 142.0
+2020-05-01 10:53:47,092 Test 15, theta: [210.], theta_hat: [358.], err: 148.0
+2020-05-01 10:53:47,837 Test 16, theta: [80.], theta_hat: [358.], err: 82.0
+2020-05-01 10:53:48,520 Test 17, theta: [132.], theta_hat: [358.], err: 134.0
+2020-05-01 10:53:49,176 Test 18, theta: [120.], theta_hat: [326.], err: 154.0
+2020-05-01 10:53:49,875 Test 19, theta: [64.], theta_hat: [316.], err: 108.0
+2020-05-01 10:53:49,876 Err_per_source average: [81.85], median: [85.5], Min_err average: 118.9, median: 138.0
+2020-05-01 10:53:49,876 Err_per_source max: [139.], min: [9.], Min_err max: 176.0, min: 18.0
+2020-05-01 10:53:56,642 Load transfer functions Omnidirectional
+2020-05-01 10:53:56,644 Number of runs 20
+2020-05-01 10:53:56,644 Noise in decibel 20
+2020-05-01 10:53:56,644 Number of sources 1
+2020-05-01 10:53:56,645 Number of samples 256
+2020-05-01 10:53:57,410 Test 0, theta: [224.], theta_hat: [358.], err: 134.0
+2020-05-01 10:53:58,035 Test 1, theta: [218.], theta_hat: [352.], err: 134.0
+2020-05-01 10:53:58,768 Test 2, theta: [342.], theta_hat: [358.], err: 16.0
+2020-05-01 10:53:59,487 Test 3, theta: [252.], theta_hat: [358.], err: 106.0
+2020-05-01 10:54:00,183 Test 4, theta: [132.], theta_hat: [344.], err: 148.0
+2020-05-01 10:54:00,899 Test 5, theta: [336.], theta_hat: [358.], err: 22.0
+2020-05-01 10:54:01,660 Test 6, theta: [342.], theta_hat: [358.], err: 16.0
+2020-05-01 10:54:02,393 Test 7, theta: [194.], theta_hat: [358.], err: 164.0
+2020-05-01 10:54:03,087 Test 8, theta: [40.], theta_hat: [350.], err: 50.0
+2020-05-01 10:54:03,743 Test 9, theta: [278.], theta_hat: [342.], err: 64.0
+2020-05-01 10:54:04,489 Test 10, theta: [74.], theta_hat: [358.], err: 76.0
+2020-05-01 10:54:05,157 Test 11, theta: [210.], theta_hat: [244.], err: 34.0
+2020-05-01 10:54:05,846 Test 12, theta: [24.], theta_hat: [358.], err: 26.0
+2020-05-01 10:54:06,656 Test 13, theta: [106.], theta_hat: [358.], err: 108.0
+2020-05-01 10:54:07,337 Test 14, theta: [136.], theta_hat: [352.], err: 144.0
+2020-05-01 10:54:07,984 Test 15, theta: [340.], theta_hat: [356.], err: 16.0
+2020-05-01 10:54:08,611 Test 16, theta: [92.], theta_hat: [358.], err: 94.0
+2020-05-01 10:54:09,238 Test 17, theta: [22.], theta_hat: [358.], err: 24.0
+2020-05-01 10:54:09,864 Test 18, theta: [330.], theta_hat: [352.], err: 22.0
+2020-05-01 10:54:10,488 Test 19, theta: [54.], theta_hat: [274.], err: 140.0
+2020-05-01 10:54:10,489 Err_per_source average: [78.95], median: [74.5], Min_err average: 76.9, median: 70.0
+2020-05-01 10:54:10,489 Err_per_source max: [168.], min: [8.], Min_err max: 164.0, min: 16.0

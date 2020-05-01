@@ -1,0 +1,205 @@
+2020-05-01 10:44:16,673 Load transfer functions Omnidirectional
+2020-05-01 10:44:16,673 Number of runs 50
+2020-05-01 10:44:16,674 Noise in decibel 20
+2020-05-01 10:44:16,674 Number of sources 1
+2020-05-01 10:44:16,693 Number of frequencies 65
+2020-05-01 10:44:19,008 Actual DoAs: [105]
+2020-05-01 10:44:19,008 MUSIC DoAs: [105 165]
+2020-05-01 10:44:19,009 Run 0 : 
+2020-05-01 10:44:19,009 Found every source but found 1 more sources
+2020-05-01 10:44:19,367 Actual DoAs: [113]
+2020-05-01 10:44:19,367 MUSIC DoAs: [ 67 113 157]
+2020-05-01 10:44:19,367 Run 1 : 
+2020-05-01 10:44:19,367 Found every source but found 2 more sources
+2020-05-01 10:44:19,728 Actual DoAs: [52]
+2020-05-01 10:44:19,729 MUSIC DoAs: [ 52 128]
+2020-05-01 10:44:19,729 Run 2 : 
+2020-05-01 10:44:19,729 Found every source but found 1 more sources
+2020-05-01 10:44:20,089 Actual DoAs: [80]
+2020-05-01 10:44:20,089 MUSIC DoAs: [10 80]
+2020-05-01 10:44:20,089 Run 3 : 
+2020-05-01 10:44:20,089 Found every source but found 1 more sources
+2020-05-01 10:44:20,449 Actual DoAs: [39]
+2020-05-01 10:44:20,449 MUSIC DoAs: [ 39 141]
+2020-05-01 10:44:20,450 Run 4 : 
+2020-05-01 10:44:20,450 Found every source but found 1 more sources
+2020-05-01 10:44:20,810 Actual DoAs: [125]
+2020-05-01 10:44:20,810 MUSIC DoAs: [ 55 125]
+2020-05-01 10:44:20,810 Run 5 : 
+2020-05-01 10:44:20,810 Found every source but found 1 more sources
+2020-05-01 10:44:21,173 Actual DoAs: [0]
+2020-05-01 10:44:21,173 MUSIC DoAs: [90]
+2020-05-01 10:44:21,173 Run 6 : 
+2020-05-01 10:44:21,173 Found 1 wrong source(s) and didn't find 1 source(s)
+2020-05-01 10:44:21,535 Actual DoAs: [25]
+2020-05-01 10:44:21,535 MUSIC DoAs: [ 25  65 155]
+2020-05-01 10:44:21,535 Run 7 : 
+2020-05-01 10:44:21,535 Found every source but found 2 more sources
+2020-05-01 10:44:21,908 Actual DoAs: [109]
+2020-05-01 10:44:21,908 MUSIC DoAs: [ 71 109 161]
+2020-05-01 10:44:21,908 Run 8 : 
+2020-05-01 10:44:21,908 Found every source but found 2 more sources
+2020-05-01 10:44:22,268 Actual DoAs: [25]
+2020-05-01 10:44:22,268 MUSIC DoAs: [ 25  65 155]
+2020-05-01 10:44:22,268 Run 9 : 
+2020-05-01 10:44:22,268 Found every source but found 2 more sources
+2020-05-01 10:44:22,634 Actual DoAs: [13]
+2020-05-01 10:44:22,634 MUSIC DoAs: [ 13  77 167]
+2020-05-01 10:44:22,635 Run 10 : 
+2020-05-01 10:44:22,635 Found every source but found 2 more sources
+2020-05-01 10:44:22,995 Actual DoAs: [110]
+2020-05-01 10:44:22,996 MUSIC DoAs: [ 70 110 160]
+2020-05-01 10:44:22,996 Run 11 : 
+2020-05-01 10:44:22,996 Found every source but found 2 more sources
+2020-05-01 10:44:23,361 Actual DoAs: [52]
+2020-05-01 10:44:23,361 MUSIC DoAs: [ 52 128]
+2020-05-01 10:44:23,361 Run 12 : 
+2020-05-01 10:44:23,361 Found every source but found 1 more sources
+2020-05-01 10:44:23,727 Actual DoAs: [37]
+2020-05-01 10:44:23,727 MUSIC DoAs: [ 37 143]
+2020-05-01 10:44:23,727 Run 13 : 
+2020-05-01 10:44:23,727 Found every source but found 1 more sources
+2020-05-01 10:44:24,088 Actual DoAs: [78]
+2020-05-01 10:44:24,088 MUSIC DoAs: [ 12  78 102]
+2020-05-01 10:44:24,088 Run 14 : 
+2020-05-01 10:44:24,088 Found every source but found 2 more sources
+2020-05-01 10:44:24,452 Actual DoAs: [9]
+2020-05-01 10:44:24,452 MUSIC DoAs: [9]
+2020-05-01 10:44:24,452 Run 15 : 
+2020-05-01 10:44:24,452 Found every source
+2020-05-01 10:44:24,809 Actual DoAs: [57]
+2020-05-01 10:44:24,809 MUSIC DoAs: [ 33  57 123]
+2020-05-01 10:44:24,809 Run 16 : 
+2020-05-01 10:44:24,809 Found every source but found 2 more sources
+2020-05-01 10:44:25,173 Actual DoAs: [65]
+2020-05-01 10:44:25,173 MUSIC DoAs: [ 25  65 115]
+2020-05-01 10:44:25,173 Run 17 : 
+2020-05-01 10:44:25,173 Found every source but found 2 more sources
+2020-05-01 10:44:25,537 Actual DoAs: [72]
+2020-05-01 10:44:25,537 MUSIC DoAs: [ 18  72 108]
+2020-05-01 10:44:25,538 Run 18 : 
+2020-05-01 10:44:25,538 Found every source but found 2 more sources
+2020-05-01 10:44:25,900 Actual DoAs: [135]
+2020-05-01 10:44:25,900 MUSIC DoAs: [ 45 135]
+2020-05-01 10:44:25,900 Run 19 : 
+2020-05-01 10:44:25,900 Found every source but found 1 more sources
+2020-05-01 10:44:26,261 Actual DoAs: [177]
+2020-05-01 10:44:26,261 MUSIC DoAs: [ 93 177]
+2020-05-01 10:44:26,261 Run 20 : 
+2020-05-01 10:44:26,261 Found every source but found 1 more sources
+2020-05-01 10:44:26,624 Actual DoAs: [71]
+2020-05-01 10:44:26,624 MUSIC DoAs: [ 19  71 109]
+2020-05-01 10:44:26,624 Run 21 : 
+2020-05-01 10:44:26,624 Found every source but found 2 more sources
+2020-05-01 10:44:26,991 Actual DoAs: [24]
+2020-05-01 10:44:26,991 MUSIC DoAs: [ 24 156]
+2020-05-01 10:44:26,992 Run 22 : 
+2020-05-01 10:44:26,992 Found every source but found 1 more sources
+2020-05-01 10:44:27,359 Actual DoAs: [23]
+2020-05-01 10:44:27,359 MUSIC DoAs: [ 23  67 157]
+2020-05-01 10:44:27,360 Run 23 : 
+2020-05-01 10:44:27,360 Found every source but found 2 more sources
+2020-05-01 10:44:27,717 Actual DoAs: [25]
+2020-05-01 10:44:27,717 MUSIC DoAs: [ 25  65 155]
+2020-05-01 10:44:27,718 Run 24 : 
+2020-05-01 10:44:27,718 Found every source but found 2 more sources
+2020-05-01 10:44:28,111 Actual DoAs: [37]
+2020-05-01 10:44:28,111 MUSIC DoAs: [ 37 143]
+2020-05-01 10:44:28,111 Run 25 : 
+2020-05-01 10:44:28,111 Found every source but found 1 more sources
+2020-05-01 10:44:28,470 Actual DoAs: [146]
+2020-05-01 10:44:28,471 MUSIC DoAs: [ 34 124 146]
+2020-05-01 10:44:28,471 Run 26 : 
+2020-05-01 10:44:28,471 Found every source but found 2 more sources
+2020-05-01 10:44:28,835 Actual DoAs: [59]
+2020-05-01 10:44:28,835 MUSIC DoAs: [ 59 121]
+2020-05-01 10:44:28,835 Run 27 : 
+2020-05-01 10:44:28,836 Found every source but found 1 more sources
+2020-05-01 10:44:29,195 Actual DoAs: [65]
+2020-05-01 10:44:29,195 MUSIC DoAs: [ 25  65 115]
+2020-05-01 10:44:29,196 Run 28 : 
+2020-05-01 10:44:29,196 Found every source but found 2 more sources
+2020-05-01 10:44:29,557 Actual DoAs: [156]
+2020-05-01 10:44:29,557 MUSIC DoAs: [ 24 156]
+2020-05-01 10:44:29,557 Run 29 : 
+2020-05-01 10:44:29,557 Found every source but found 1 more sources
+2020-05-01 10:44:29,919 Actual DoAs: [114]
+2020-05-01 10:44:29,920 MUSIC DoAs: [ 66 114 156]
+2020-05-01 10:44:29,920 Run 30 : 
+2020-05-01 10:44:29,920 Found every source but found 2 more sources
+2020-05-01 10:44:30,282 Actual DoAs: [42]
+2020-05-01 10:44:30,282 MUSIC DoAs: [ 42 138]
+2020-05-01 10:44:30,282 Run 31 : 
+2020-05-01 10:44:30,282 Found every source but found 1 more sources
+2020-05-01 10:44:30,643 Actual DoAs: [51]
+2020-05-01 10:44:30,643 MUSIC DoAs: [ 51 129]
+2020-05-01 10:44:30,643 Run 32 : 
+2020-05-01 10:44:30,643 Found every source but found 1 more sources
+2020-05-01 10:44:31,010 Actual DoAs: [13]
+2020-05-01 10:44:31,010 MUSIC DoAs: [ 13  77 167]
+2020-05-01 10:44:31,011 Run 33 : 
+2020-05-01 10:44:31,011 Found every source but found 2 more sources
+2020-05-01 10:44:31,372 Actual DoAs: [133]
+2020-05-01 10:44:31,372 MUSIC DoAs: [ 47 133]
+2020-05-01 10:44:31,373 Run 34 : 
+2020-05-01 10:44:31,373 Found every source but found 1 more sources
+2020-05-01 10:44:31,743 Actual DoAs: [6]
+2020-05-01 10:44:31,743 MUSIC DoAs: [ 6 84]
+2020-05-01 10:44:31,743 Run 35 : 
+2020-05-01 10:44:31,743 Found every source but found 1 more sources
+2020-05-01 10:44:32,112 Actual DoAs: [38]
+2020-05-01 10:44:32,112 MUSIC DoAs: [ 38 142]
+2020-05-01 10:44:32,112 Run 36 : 
+2020-05-01 10:44:32,112 Found every source but found 1 more sources
+2020-05-01 10:44:32,477 Actual DoAs: [94]
+2020-05-01 10:44:32,477 MUSIC DoAs: [94]
+2020-05-01 10:44:32,477 Run 37 : 
+2020-05-01 10:44:32,477 Found every source
+2020-05-01 10:44:32,842 Actual DoAs: [45]
+2020-05-01 10:44:32,842 MUSIC DoAs: [ 45 135]
+2020-05-01 10:44:32,842 Run 38 : 
+2020-05-01 10:44:32,842 Found every source but found 1 more sources
+2020-05-01 10:44:33,204 Actual DoAs: [105]
+2020-05-01 10:44:33,204 MUSIC DoAs: [105 165]
+2020-05-01 10:44:33,204 Run 39 : 
+2020-05-01 10:44:33,204 Found every source but found 1 more sources
+2020-05-01 10:44:33,576 Actual DoAs: [173]
+2020-05-01 10:44:33,576 MUSIC DoAs: [ 97 173]
+2020-05-01 10:44:33,576 Run 40 : 
+2020-05-01 10:44:33,576 Found every source but found 1 more sources
+2020-05-01 10:44:33,936 Actual DoAs: [135]
+2020-05-01 10:44:33,937 MUSIC DoAs: [ 45 135]
+2020-05-01 10:44:33,937 Run 41 : 
+2020-05-01 10:44:33,937 Found every source but found 1 more sources
+2020-05-01 10:44:34,301 Actual DoAs: [94]
+2020-05-01 10:44:34,302 MUSIC DoAs: [94]
+2020-05-01 10:44:34,302 Run 42 : 
+2020-05-01 10:44:34,302 Found every source
+2020-05-01 10:44:34,665 Actual DoAs: [48]
+2020-05-01 10:44:34,665 MUSIC DoAs: [ 48 132]
+2020-05-01 10:44:34,665 Run 43 : 
+2020-05-01 10:44:34,665 Found every source but found 1 more sources
+2020-05-01 10:44:35,029 Actual DoAs: [104]
+2020-05-01 10:44:35,029 MUSIC DoAs: [104 166]
+2020-05-01 10:44:35,029 Run 44 : 
+2020-05-01 10:44:35,029 Found every source but found 1 more sources
+2020-05-01 10:44:35,392 Actual DoAs: [133]
+2020-05-01 10:44:35,392 MUSIC DoAs: [ 47 133]
+2020-05-01 10:44:35,392 Run 45 : 
+2020-05-01 10:44:35,392 Found every source but found 1 more sources
+2020-05-01 10:44:35,755 Actual DoAs: [18]
+2020-05-01 10:44:35,755 MUSIC DoAs: [ 18  72 162]
+2020-05-01 10:44:35,755 Run 46 : 
+2020-05-01 10:44:35,755 Found every source but found 2 more sources
+2020-05-01 10:44:36,116 Actual DoAs: [61]
+2020-05-01 10:44:36,116 MUSIC DoAs: [ 61 119]
+2020-05-01 10:44:36,116 Run 47 : 
+2020-05-01 10:44:36,116 Found every source but found 1 more sources
+2020-05-01 10:44:36,483 Actual DoAs: [168]
+2020-05-01 10:44:36,483 MUSIC DoAs: [ 12 102 168]
+2020-05-01 10:44:36,484 Run 48 : 
+2020-05-01 10:44:36,484 Found every source but found 2 more sources
+2020-05-01 10:44:36,847 Actual DoAs: [88]
+2020-05-01 10:44:36,847 MUSIC DoAs: [88]
+2020-05-01 10:44:36,847 Run 49 : 
+2020-05-01 10:44:36,847 Found every source

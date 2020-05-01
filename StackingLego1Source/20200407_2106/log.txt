@@ -1,0 +1,57 @@
+2020-04-07 21:06:04,085 Load transfer functions lego
+2020-04-07 21:06:04,121 Number of runs 50
+2020-04-07 21:06:04,121 Noise in decibel 20
+2020-04-07 21:06:04,121 Number of sources 1
+2020-04-07 21:06:04,121 Number of samples 128
+2020-04-07 21:06:04,274 Test 0, theta: [186.], theta_hat: [186.], err: 0.0
+2020-04-07 21:06:04,417 Test 1, theta: [100.], theta_hat: [100.], err: 0.0
+2020-04-07 21:06:04,548 Test 2, theta: [30.], theta_hat: [30.], err: 0.0
+2020-04-07 21:06:04,680 Test 3, theta: [236.], theta_hat: [234.], err: 2.0
+2020-04-07 21:06:04,821 Test 4, theta: [208.], theta_hat: [208.], err: 0.0
+2020-04-07 21:06:05,037 Test 5, theta: [186.], theta_hat: [186.], err: 0.0
+2020-04-07 21:06:05,261 Test 6, theta: [314.], theta_hat: [314.], err: 0.0
+2020-04-07 21:06:05,415 Test 7, theta: [218.], theta_hat: [218.], err: 0.0
+2020-04-07 21:06:05,648 Test 8, theta: [78.], theta_hat: [78.], err: 0.0
+2020-04-07 21:06:06,004 Test 9, theta: [136.], theta_hat: [136.], err: 0.0
+2020-04-07 21:06:06,242 Test 10, theta: [102.], theta_hat: [102.], err: 0.0
+2020-04-07 21:06:06,609 Test 11, theta: [70.], theta_hat: [70.], err: 0.0
+2020-04-07 21:06:06,945 Test 12, theta: [156.], theta_hat: [154.], err: 2.0
+2020-04-07 21:06:07,263 Test 13, theta: [218.], theta_hat: [218.], err: 0.0
+2020-04-07 21:06:07,488 Test 14, theta: [234.], theta_hat: [236.], err: 2.0
+2020-04-07 21:06:07,617 Test 15, theta: [244.], theta_hat: [244.], err: 0.0
+2020-04-07 21:06:07,740 Test 16, theta: [68.], theta_hat: [68.], err: 0.0
+2020-04-07 21:06:07,864 Test 17, theta: [298.], theta_hat: [298.], err: 0.0
+2020-04-07 21:06:07,985 Test 18, theta: [208.], theta_hat: [208.], err: 0.0
+2020-04-07 21:06:08,106 Test 19, theta: [58.], theta_hat: [58.], err: 0.0
+2020-04-07 21:06:08,224 Test 20, theta: [80.], theta_hat: [80.], err: 0.0
+2020-04-07 21:06:08,345 Test 21, theta: [94.], theta_hat: [92.], err: 2.0
+2020-04-07 21:06:08,464 Test 22, theta: [30.], theta_hat: [30.], err: 0.0
+2020-04-07 21:06:08,585 Test 23, theta: [226.], theta_hat: [226.], err: 0.0
+2020-04-07 21:06:08,744 Test 24, theta: [220.], theta_hat: [220.], err: 0.0
+2020-04-07 21:06:08,960 Test 25, theta: [240.], theta_hat: [240.], err: 0.0
+2020-04-07 21:06:09,139 Test 26, theta: [16.], theta_hat: [16.], err: 0.0
+2020-04-07 21:06:09,271 Test 27, theta: [18.], theta_hat: [18.], err: 0.0
+2020-04-07 21:06:09,475 Test 28, theta: [106.], theta_hat: [106.], err: 0.0
+2020-04-07 21:06:09,731 Test 29, theta: [158.], theta_hat: [158.], err: 0.0
+2020-04-07 21:06:09,969 Test 30, theta: [210.], theta_hat: [208.], err: 2.0
+2020-04-07 21:06:10,192 Test 31, theta: [212.], theta_hat: [212.], err: 0.0
+2020-04-07 21:06:10,340 Test 32, theta: [16.], theta_hat: [16.], err: 0.0
+2020-04-07 21:06:10,498 Test 33, theta: [234.], theta_hat: [234.], err: 0.0
+2020-04-07 21:06:10,616 Test 34, theta: [58.], theta_hat: [58.], err: 0.0
+2020-04-07 21:06:10,737 Test 35, theta: [68.], theta_hat: [68.], err: 0.0
+2020-04-07 21:06:10,865 Test 36, theta: [94.], theta_hat: [94.], err: 0.0
+2020-04-07 21:06:11,013 Test 37, theta: [132.], theta_hat: [132.], err: 0.0
+2020-04-07 21:06:11,141 Test 38, theta: [246.], theta_hat: [246.], err: 0.0
+2020-04-07 21:06:11,287 Test 39, theta: [286.], theta_hat: [286.], err: 0.0
+2020-04-07 21:06:11,414 Test 40, theta: [22.], theta_hat: [22.], err: 0.0
+2020-04-07 21:06:11,535 Test 41, theta: [30.], theta_hat: [30.], err: 0.0
+2020-04-07 21:06:11,652 Test 42, theta: [150.], theta_hat: [150.], err: 0.0
+2020-04-07 21:06:11,787 Test 43, theta: [204.], theta_hat: [204.], err: 0.0
+2020-04-07 21:06:11,981 Test 44, theta: [224.], theta_hat: [224.], err: 0.0
+2020-04-07 21:06:12,139 Test 45, theta: [258.], theta_hat: [258.], err: 0.0
+2020-04-07 21:06:12,311 Test 46, theta: [236.], theta_hat: [236.], err: 0.0
+2020-04-07 21:06:12,487 Test 47, theta: [352.], theta_hat: [352.], err: 0.0
+2020-04-07 21:06:12,638 Test 48, theta: [62.], theta_hat: [62.], err: 0.0
+2020-04-07 21:06:12,783 Test 49, theta: [222.], theta_hat: [222.], err: 0.0
+2020-04-07 21:06:12,783 Err_per_source average: [0.1], median: [0.], Min_err average: 0.2, median: 0.0
+2020-04-07 21:06:12,784 Err_per_source max: [1.], min: [0.], Min_err max: 2.0, min: 0.0

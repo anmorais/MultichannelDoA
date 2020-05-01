@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[9]:
+# In[13]:
 
 
 import numpy as np
@@ -31,7 +31,7 @@ def whiteNoise(numberOfSources, starting_frequency = 0):
      Output:
        - 
     '''
-    outpath = os.path.join('1 source',  '{:%Y%m%d_%H%M}'.format(datetime.datetime.now()))
+    outpath = os.path.join('output',  '{:%Y%m%d_%H%M}'.format(datetime.datetime.now()))
     if not os.path.exists(outpath):
         os.makedirs(outpath)
     
@@ -42,45 +42,44 @@ def whiteNoise(numberOfSources, starting_frequency = 0):
     
     f0 = starting_frequency #starting frequency index
     step = 1 #discretization (for now we want to use the 180 angles so we keep it like that)
-    #m = 1 #index of used microphone (only used when H_theta0_t = H_theta_total[:, :, m])
+    m = 1 #index of used microphone (only used when H_theta0_t = H_theta_total[:, :, m])
     n_samples = 128
-    logger.info('Number of samples %s'%(n_samples))
 
     dev = 'lego' # Change if using Kemar or lego
     logger.info('Load transfer functions %s'%dev)
     
     H_theta_total = np.load('lego1_h_theta_time.npy')
 
-    H_theta_stacked = H_theta_total[:, :, 0]
+   # H_theta_stacked = H_theta_total[:, :, 0]
     
-    for i in range(1, H_theta_total.shape[2]):
-        H_theta_stacked = np.append(H_theta_stacked, H_theta_total[:, :, i],axis = 0)
+    #for i in range(1, H_theta_total.shape[2]):
+     #   H_theta_stacked = np.append(H_theta_stacked, H_theta_total[:, :, i],axis = 0)
         
     
         
-    #H_theta0_t = H_theta_total[:, :, m] # For one mic
-    H_theta0_t = H_theta_stacked
+    H_theta0_t = H_theta_total[:, :, m] # For one mic
+    #H_theta0_t = H_theta_stacked
     
     H_theta_t = H_theta0_t[:, ::step] #coarse discretization
     Df = H_theta_t.shape[1] #number of directions for a fine discretization
 
-    First_H_theta = H_theta_total[:, :, 0]
-    First_H_theta_transpose = np.transpose(First_H_theta)
-    First_H_theta_freq = np.fft.rfft(First_H_theta_transpose, n_samples)
-    H_theta_freq_stacked = np.transpose(First_H_theta_freq)
+#    First_H_theta = H_theta_total[:, :, 0]
+ #   First_H_theta_transpose = np.transpose(First_H_theta)
+  #  First_H_theta_freq = np.fft.rfft(First_H_theta_transpose, n_samples)
+   # H_theta_freq_stacked = np.transpose(First_H_theta_freq)
     
-    for j in range(1, H_theta_total.shape[2]):
-        Transpose_of_time = np.transpose(H_theta_total[:, :, j])    
-        Freq_One_mic = np.fft.rfft(Transpose_of_time, n_samples) #load transfer functions (includes 4 microphones)
-        Freq_One_mic = np.transpose(Freq_One_mic)
-        H_theta_freq_stacked = np.append(H_theta_freq_stacked, Freq_One_mic,axis = 0)
+#    for j in range(1, H_theta_total.shape[2]):
+ #       Transpose_of_time = np.transpose(H_theta_total[:, :, j])    
+  #      Freq_One_mic = np.fft.rfft(Transpose_of_time, n_samples) #load transfer functions (includes 4 microphones)
+   #     Freq_One_mic = np.transpose(Freq_One_mic)
+    #    H_theta_freq_stacked = np.append(H_theta_freq_stacked, Freq_One_mic,axis = 0)
 
 
-    H_theta0 = H_theta_freq_stacked
+  #  H_theta0 = H_theta_freq_stacked
     
-    #H_theta_t_transpose = np.transpose(H_theta_t)    
-    #H_theta0 = np.fft.rfft(H_theta_t_transpose, n_samples) #load transfer functions (includes 4 microphones)
-    #H_theta0 = np.transpose(H_theta0)
+    H_theta_t_transpose = np.transpose(H_theta_t)    
+    H_theta0 = np.fft.rfft(H_theta_t_transpose, n_samples) 
+    H_theta0 = np.transpose(H_theta0)
     
     anglesf = np.arange(Df, dtype=np.int64)*360./Df # list of angles in degrees
     
@@ -90,20 +89,19 @@ def whiteNoise(numberOfSources, starting_frequency = 0):
     [F, D] = H_theta.shape #F: number of frequencies,  D: number of directions
     #print(F)
     
-    runs = 50
-    n_samples = H_theta_total.shape[2]*n_samples
+    runs = 20
+    #n_samples = H_theta_total.shape[2]*n_samples
     J = numberOfSources
     conf_matrix = np.zeros((360, 360)) #confusion  matrix
     err_per_source = np.zeros((runs, J))
     min_err_per_source = np.zeros((runs, J))
     obs_len = n_samples + H_theta_t.shape[0] - 1#length of the convolution
     SNR = 0 # noise of 20 dB
-    Fn = n_samples/2. +  H_theta_total.shape[2] #number of frequencies in spectrogram 
+    Fn = n_samples/2. + 1# H_theta_total.shape[2] #number of frequencies in spectrogram 
     
     logger.info('Number of sources %s'%(J))
     
     for rns in range(runs):
-        print(rns)
         St_all = np.zeros((n_samples, J)) #list of source signals
         for j in range(J):
             St_all[:, j] = np.random.randn(n_samples) #source in time: random gaussian signal 
