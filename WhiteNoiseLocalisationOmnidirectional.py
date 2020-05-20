@@ -40,7 +40,10 @@ def whiteNoise(numberOfSources, starting_frequency = 0):
      Output:
        - 
     '''
-    outpath = os.path.join('StackingOmni',  '{:%Y%m%d_%H%M}'.format(datetime.datetime.now()))
+    n_samples = 128
+    values = [numberOfSources, n_samples]
+
+    outpath = os.path.join('StackingOmni',  '{0}source{1}samples'.format(*values))
     if not os.path.exists(outpath):
         os.makedirs(outpath)
     
@@ -51,7 +54,6 @@ def whiteNoise(numberOfSources, starting_frequency = 0):
     
     f0 = starting_frequency #starting frequency index
     step = 1 #discretization (for now we want to use the 180 angles so we keep it like that)
-    n_samples = 128
     # maybe to add - starting frequency (f0)
     Fn = n_samples/2. +  1 #number of frequencies in spectrogram 
     # noise in dB
@@ -64,7 +66,7 @@ def whiteNoise(numberOfSources, starting_frequency = 0):
 
     # Decided by me. Should it be random ? or special ones ? 
     # If we want less mics put less positions
-    mic_positions = np.array([(1,0), (0,1), (0,0), (-1,0), (0,-1)])
+    mic_positions = np.array([(1,0), (0,1), (0,0), (-1,0), (0,-1), (0.3, 0.3)])
 
     number_mics = mic_positions.shape[0]
     N = number_mics
@@ -159,7 +161,7 @@ def whiteNoise(numberOfSources, starting_frequency = 0):
     obs_len = n_samples + H_theta_time_total[:,:,0].shape[0] - 1
         
     numAngles = H_theta_time_total.shape[1]
-    runs = 20
+    runs = 50
     J = numberOfSources
     conf_matrix = np.zeros((numAngles, numAngles)) #confusion  matrix
     
@@ -267,7 +269,7 @@ def whiteNoise(numberOfSources, starting_frequency = 0):
     hm = sns.heatmap(20*np.log10(conf_matrix+1e-80), cmap=cmap, xticklabels=False,  yticklabels=False)
     plt.xlabel('Estimate')
     plt.ylabel('True')
-    plt.savefig(os.path.join(outpath, 'conf_matrix.png'))
+    plt.savefig(os.path.join(outpath, 'conf_matrix_{0}source{1}samples.png'.format(*values)))
     return err_per_source
 
 # Taken from https://github.com/swing-research/scatsense/blob/master/core/signal.py 
@@ -293,5 +295,5 @@ def calculate_angle_error(theta,theta_hat,angles):
     return min_err,perm
 
 
-whiteNoise(1)
+whiteNoise(2)
 

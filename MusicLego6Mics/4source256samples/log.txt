@@ -1,0 +1,57 @@
+2020-05-13 22:22:09,418 Load transfer functions lego
+2020-05-13 22:22:09,427 Number of runs 50
+2020-05-13 22:22:09,427 Noise in decibel 20
+2020-05-13 22:22:09,427 Number of sources 4
+2020-05-13 22:22:09,458 Number of frequencies 129
+2020-05-13 22:22:11,006 Test 0, Actual DoAs: [224 244 340 304], MUSIC DoAs: [224 244 340 304], err: 0.0
+2020-05-13 22:22:12,549 Test 1, Actual DoAs: [308 192 114 320], MUSIC DoAs: [308 192 114 320], err: 0.0
+2020-05-13 22:22:14,256 Test 2, Actual DoAs: [196 166 230 154], MUSIC DoAs: [196 166 230 154], err: 0.0
+2020-05-13 22:22:15,721 Test 3, Actual DoAs: [120 164 310  84], MUSIC DoAs: [120 164 310  84], err: 0.0
+2020-05-13 22:22:17,223 Test 4, Actual DoAs: [358 336 160 238], MUSIC DoAs: [336 238 160 234], err: 31.0
+2020-05-13 22:22:18,800 Test 5, Actual DoAs: [ 18 130 116 336], MUSIC DoAs: [ 18 130 116 336], err: 0.0
+2020-05-13 22:22:20,270 Test 6, Actual DoAs: [356 230 156   4], MUSIC DoAs: [356 230 156   4], err: 0.0
+2020-05-13 22:22:21,652 Test 7, Actual DoAs: [ 28 276 144  22], MUSIC DoAs: [ 28 276 144  22], err: 0.0
+2020-05-13 22:22:23,057 Test 8, Actual DoAs: [ 24 240  30 150], MUSIC DoAs: [ 24 240  30 150], err: 0.0
+2020-05-13 22:22:24,596 Test 9, Actual DoAs: [202 178   2  98], MUSIC DoAs: [202 178   2  98], err: 0.0
+2020-05-13 22:22:26,122 Test 10, Actual DoAs: [  6 296 332  92], MUSIC DoAs: [  6 296 332  92], err: 0.0
+2020-05-13 22:22:27,810 Test 11, Actual DoAs: [180 142 340 296], MUSIC DoAs: [180 142 340 296], err: 0.0
+2020-05-13 22:22:29,224 Test 12, Actual DoAs: [280  18 208 270], MUSIC DoAs: [280  18 208 270], err: 0.0
+2020-05-13 22:22:30,640 Test 13, Actual DoAs: [ 76 170  98 154], MUSIC DoAs: [ 76 170  98 154], err: 0.0
+2020-05-13 22:22:32,054 Test 14, Actual DoAs: [286  38 332 356], MUSIC DoAs: [286  38 332 356], err: 0.0
+2020-05-13 22:22:33,422 Test 15, Actual DoAs: [ 48 208 280 290], MUSIC DoAs: [ 48 208 280 290], err: 0.0
+2020-05-13 22:22:34,772 Test 16, Actual DoAs: [294  62  46 202], MUSIC DoAs: [294  62  46 202], err: 0.0
+2020-05-13 22:22:36,108 Test 17, Actual DoAs: [278  74 232  90], MUSIC DoAs: [278  74 232  90], err: 0.0
+2020-05-13 22:22:37,463 Test 18, Actual DoAs: [190 192 318  84], MUSIC DoAs: [ 84 192 318  74], err: 29.0
+2020-05-13 22:22:38,801 Test 19, Actual DoAs: [274  88 220 252], MUSIC DoAs: [274  88 220 252], err: 0.0
+2020-05-13 22:22:40,190 Test 20, Actual DoAs: [  6 106 336 102], MUSIC DoAs: [  6 106 336 102], err: 0.0
+2020-05-13 22:22:41,632 Test 21, Actual DoAs: [314  24 298  82], MUSIC DoAs: [314  24 298  82], err: 0.0
+2020-05-13 22:22:43,053 Test 22, Actual DoAs: [122  28  22 284], MUSIC DoAs: [122  28  22 284], err: 0.0
+2020-05-13 22:22:44,464 Test 23, Actual DoAs: [200 340  74 104], MUSIC DoAs: [200 340  74  70], err: 8.5
+2020-05-13 22:22:46,019 Test 24, Actual DoAs: [190 188  16 280], MUSIC DoAs: [254 188  16 280], err: 16.0
+2020-05-13 22:22:47,466 Test 25, Actual DoAs: [290 176 182 142], MUSIC DoAs: [290 176 182 142], err: 0.0
+2020-05-13 22:22:48,890 Test 26, Actual DoAs: [  2 272  18 126], MUSIC DoAs: [  2 272  18 126], err: 0.0
+2020-05-13 22:22:50,346 Test 27, Actual DoAs: [196 332  36  74], MUSIC DoAs: [196 332  36  74], err: 0.0
+2020-05-13 22:22:51,716 Test 28, Actual DoAs: [ 62 198 312  18], MUSIC DoAs: [ 62 198 312  18], err: 0.0
+2020-05-13 22:22:53,141 Test 29, Actual DoAs: [ 44 268 160 136], MUSIC DoAs: [ 44 268 160 136], err: 0.0
+2020-05-13 22:22:54,525 Test 30, Actual DoAs: [128 262 158  88], MUSIC DoAs: [128 262 158  88], err: 0.0
+2020-05-13 22:22:55,892 Test 31, Actual DoAs: [248   8 260 238], MUSIC DoAs: [248   8 260 238], err: 0.0
+2020-05-13 22:22:57,239 Test 32, Actual DoAs: [ 22  64 130 328], MUSIC DoAs: [ 22  64 130 328], err: 0.0
+2020-05-13 22:22:58,624 Test 33, Actual DoAs: [352 294 346  24], MUSIC DoAs: [352 294 346  24], err: 0.0
+2020-05-13 22:22:59,974 Test 34, Actual DoAs: [  4 114 336 198], MUSIC DoAs: [  4 114 336 198], err: 0.0
+2020-05-13 22:23:01,475 Test 35, Actual DoAs: [148 350 320  56], MUSIC DoAs: [148 350 320  56], err: 0.0
+2020-05-13 22:23:02,939 Test 36, Actual DoAs: [204 352 294 324], MUSIC DoAs: [204 352 294 324], err: 0.0
+2020-05-13 22:23:04,378 Test 37, Actual DoAs: [270 182   2 308], MUSIC DoAs: [270 182   2 308], err: 0.0
+2020-05-13 22:23:05,721 Test 38, Actual DoAs: [192  70 298 312], MUSIC DoAs: [192  70 298 312], err: 0.0
+2020-05-13 22:23:07,148 Test 39, Actual DoAs: [100 240 272 150], MUSIC DoAs: [100 164 272 150], err: 19.0
+2020-05-13 22:23:08,564 Test 40, Actual DoAs: [172 340 222 142], MUSIC DoAs: [172 340 222 142], err: 0.0
+2020-05-13 22:23:10,010 Test 41, Actual DoAs: [134  60   4  56], MUSIC DoAs: [134  60   4  56], err: 0.0
+2020-05-13 22:23:11,450 Test 42, Actual DoAs: [102  30 186 110], MUSIC DoAs: [102  30 186 110], err: 0.0
+2020-05-13 22:23:12,908 Test 43, Actual DoAs: [336 152 356 300], MUSIC DoAs: [336 152 356 300], err: 0.0
+2020-05-13 22:23:14,454 Test 44, Actual DoAs: [326 320 156 256], MUSIC DoAs: [326 320 156 256], err: 0.0
+2020-05-13 22:23:15,869 Test 45, Actual DoAs: [208 258  86 156], MUSIC DoAs: [208 258  86 156], err: 0.0
+2020-05-13 22:23:17,354 Test 46, Actual DoAs: [ 12  78 184  62], MUSIC DoAs: [ 12  78 184  62], err: 0.0
+2020-05-13 22:23:18,772 Test 47, Actual DoAs: [ 90 154 294 124], MUSIC DoAs: [ 90 154 294 124], err: 0.0
+2020-05-13 22:23:20,386 Test 48, Actual DoAs: [348 322 104 268], MUSIC DoAs: [348 322 104 268], err: 0.0
+2020-05-13 22:23:21,849 Test 49, Actual DoAs: [248  64  12 230], MUSIC DoAs: [248  64  12 230], err: 0.0
+2020-05-13 22:23:21,850 Err_per_source average: [1.92 1.74 0.   0.48], median: [0. 0. 0. 0.], Min_err average: 2.07, median: 0.0
+2020-05-13 22:23:21,850 Err_per_source max: [53. 49.  0. 17.], min: [0. 0. 0. 0.], Min_err max: 31.0, min: 0.0
