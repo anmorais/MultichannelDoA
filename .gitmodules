@@ -1,3 +1,6 @@
 [submodule "pyroomAcousticsTest2"]
 	path = pyroomAcousticsTest2
 	url = git@github.com:LCAV/pyroomacoustics.git
+[submodule "pyroomAcoustics"]
+	path = pyroomAcoustics
+	url = git@github.com:LCAV/pyroomacoustics.git

@@ -1,0 +1,137 @@
+\section{Results}
+
+In this section we will talk about the different results we got. Each table represent a different number of microphones and number of sources pair. In each of them there's a different number of frequencies used. Each line in a table is a compilation of the results of 50 runs done in the evoked algorithm. The values used to illustrate the error are the error average, max error and min error. The error average is the mean of the difference of the true angle and the estimate angle for the 50 runs. The max error is the maximal difference done in the 50 runs and the min error is the minimal one. The error varies from 0 to 180 as angles are periodical meaning that a 300° angle only has a difference of 60 with the 0° angle. So if a max error has the value 180 it means that the worst error happened at least once and if the min error has the value 0 it means that we were at least correct once. The best result of each table is in \textbf{bold}.
+
+\begin{table}[H]
+   \centering
+    \begin{tabular}{|c|c|c|c|}
+      \hline
+      Using & N° Freqeuncies & Error Average & Max Error (Min Error) \\
+      \hline
+      %l'erreur moyenne et max error augmente des fois mais c'est parce que plus grosse erreur mais beaucoup moins souvent en parler avec les log.txt
+      Stacking Lego & 65 & 0.1 & 2 (0) \\
+      Stacking Lego & 129 & 0.04 & 4 (0) \\
+      Stacking Lego & 257 & 0.1 & 6 (0) \\
+      \textbf{Stacking Lego} & \textbf{513} &\textbf{0} &\textbf{0 (0)} \\
+      Stacking Omnidirectional & 65 & 84.18 & 172 (16) \\
+      Stacking Omnidirectional & 129 & 93.78 & 178 (24) \\
+      Stacking Omnidirectional & 257 & 93.72 & 176 (0) \\
+      Stacking Omnidirectional & 513 & 105.2 & 176 (0) \\
+      \textbf{Music Lego} & \textbf{65}& \textbf{0}& \textbf{0 (0)}\\
+      Music Lego & 129 & 2.76 & 84 (0) \\
+      \textbf{Music Lego} & \textbf{257} &\textbf{0} &\textbf{0 (0)} \\
+      \textbf{Music Lego} & \textbf{513} &\textbf{0} &\textbf{0 (0)} \\
+      \textbf{Music Omnidirectional} & \textbf{65}& \textbf{0} & \textbf{0 (0)}\\
+      % 2 Error due to the bug of the 0 theta (to modify or at least talk about it)
+      Music Omnidirectional & 129 & 1.8 & 180 (0) \\
+      Music Omnidirectional & 257 & 1.8 & 180 (0) \\
+      \textbf{Music Omnidirectional} & \textbf{513} &\textbf{0} &\textbf{0 (0)} \\
+      \hline
+    \end{tabular}
+    \caption{Summary of the algorithms using 6 Microphones and for one source, we're using the Lego responses and omnidirectional one (analytically computed). The different algorithms used are the stacking one and music. Every line is a compilation of 50 runs each done with a noise of 20 decibel.}
+    \label{table:6mics1source}
+\end{table}
+
+In table \ref{table:6mics1source} we have the results of the algorithms using 6 microphones and 1 source. We can see that we have several perfect results notably in the music algorithm that seems to work really well when there is several microphones. The 2 algorithms seem to be pretty good except when using the stacking algorithm with omnidirectional impulse responses which was expected.
+
+In table \ref{table:6mics2sources} we have the results of the algorithms using 6 microphones and 2 sources. We can see that it becomes harder and the algorithms don't find as often the good angles yet the music algorithm managed to do a perfect run and is, on average, better for this configuration. 
+
+\begin{table}[H]
+   \centering
+    \begin{tabular}{|c|c|c|c|c|}
+      \hline
+      Using & N° Freqeuncies & EA source 1 & EA source 2 & Max Error (Min Error) \\
+      \hline
+      Stacking Lego & 65 & 12.7 & 5.26 & 69 (0) \\
+      Stacking Lego & 129 & 0.22 & 1.88 & 83 (0) \\
+      Stacking Lego* & 257 & 0.0 & 0.25 & 5 (0) \\
+      
+      % didn't went with 129 etc because it was bad as with 1 source and computing time was really long
+      Stacking Omnidirectional & 65 & 82.28 & 100.48 & 158 (18) \\
+      %talk about the fact that it might be a little bit luck because no near two sources in 50 runs
+      \textbf{Music Lego} & \textbf{65}& \textbf{0} & \textbf{0}& \textbf{0 (0)}\\
+      %Problems because really close angles (talk about that)
+      Music Lego & 129 & 0.12 & 0.5 & 25 (0) \\
+      %problems because of 0
+      Music Lego & 257 & 0.46 & 4.24 & 42 (0) \\
+      Music Lego & 513 & 0 & 3.5 & 42 (0) \\
+      Music Omnidirectional & 65 & 0 & 3.22 & 35 (0) \\
+      Music Omnidirectional & 129 & 2.64 & 1.68 & 90 (0) \\
+      Music Omnidirectional & 257 & 0 & 3.34 & 13 (0) \\
+      Music Omnidirectional & 513 & 0.02 & 5.32 & 88 (0) \\
+      \hline
+    \end{tabular}
+    \caption{Summary of the algorithms using 6 Microphones and for 2 sources, we're using the Lego responses and omnidirectional one (analytically computed). The different algorithms used are the stacking one and music. Every line is a compilation of 50 runs each done with a noise of 20 decibel (* is an exception and has only 20 runs because the running time was too long, EA stands for error average)}
+    \label{table:6mics2sources}
+\end{table}
+
+
+\begin{table}[H]
+   \centering
+    \begin{tabular}{|c|c|c|c|}
+      \hline
+      Using & N° Freqeuncies & Error Average & Max Error (Min Error) \\
+      \hline
+      Stacking Lego & 65 & 1.26 & 64 (0) \\
+      Stacking Lego & 129 & 0.34 & 8 (0) \\
+      Stacking Lego & 257 & 0.16 & 4 (0) \\
+      Stacking Lego & 513 & 0.06 & 2 (0) \\
+      \textbf{Stacking Lego} & \textbf{1025} & \textbf{0} & \textbf{0 (0)} \\
+
+      Stacking Kemar & 65 & 19.22 & 170 (0) \\
+      Stacking Kemar & 129 & 20.28 & 171 (0) \\
+      Stacking Kemar & 257 & 10.64 & 174 (0) \\
+      Stacking Kemar & 513 & 2.48 & 13 (0) \\
+      Stacking Kemar & 1025 & 2 & 7 (0) \\
+      
+      Music Lego & 65 & 3.86 & 116 (0) \\
+      Music Lego & 129 & 1.3 & 82 (0) \\
+      Music Lego & 257 & 2.92 & 82 (0) \\
+      Music Lego & 513 & 3.9 & 150 (0) \\
+      
+      %Music Kemar (180 degrees) & 65 & 25.64 & 172 (0) \\
+      %Music Kemar (180 degrees) & 129 & 21.96 & 160 (0) \\
+      %Music Kemar (180 degrees) & 257 & 28.7 & 170 (0) \\
+      
+      
+      Music Kemar & 513 & 1.9 & 92.0 (0) \\
+      
+      Music Omnidirectional & 65 & 2.86 & 128 (0) \\
+      Music Omnidirectional & 129 & 3.28 & 164 (0) \\
+      Music Omnidirectional & 257 & 1.8 & 166 (0) \\
+      Music Omnidirectional & 513 & 0.76 & 74 (0) \\
+
+      
+      \hline
+    \end{tabular}
+    \caption{Summary of the algorithms using 2 Microphones and searching for one source, we're using the Lego responses, kemar responses and omnidirectional one (analytically computed). The different algorithms used are the stacking one and music. Every line is a compilation of 50 runs each done with a noise of 20 decibel.}
+    \label{table:2mics2sources}
+\end{table}
+
+In table \ref{table:2mics2sources} we have the results for 2 microphones and 1 source. In the music algorithm we only used 180 degrees and not 360 because if the microphones are on a line (always the case for 2 microphones) the music algorithm is not able to precisely deduce if the sound is coming from the front or the back; a seemingly symmetry problem. So we decided to use only half of the data to be fairer.
+However we still can see that stacking seems to work better for 2 microphones. It's not really surprising as the more microphones there is the better music works. There is no line for stacking omnidirectional because it would give results similar to a random one as in the other tables. The stacking with LEGO managed to score a perfect run which shows that the scattering done with LEGOs is really helpful and better than the one with KEMAR. 
+
+\begin{table}[H]
+   \centering
+    \begin{tabular}{|c|c|c|c|c|}
+      \hline
+      Using & N° Freqeuncies & EA source 1 & EA source 2 & Max Error (Min Error) \\
+      \hline
+      Stacking Lego & 65 & 16 & 20.32 & 82 (0) \\
+      Stacking Lego & 129 & 6.42 & 14.16 & 84 (0) \\
+      Stacking Lego & 257 & 5.42 & 4.6 & 31 (0) \\
+      \textbf{Stacking Lego} & \textbf{513} & \textbf{0.36}& \textbf{0.22} & \textbf{10 (0)} \\
+
+      Stacking Kemar & 65 & 31.32 & 45.48 & 154 (3) \\
+      Stacking Kemar & 129 & 31.76 & 35.28 & 103 (1) \\
+      %This one took 2 hours
+      Stacking Kemar & 257 & 32.52 & 25.52 & 132.5 (1) \\
+      \hline
+    \end{tabular}
+    \caption{Summary of the algorithms using 2 Microphones and 2 sources, we're using the Lego responses, kemar responses and omnidirectional one (analytically computed). The algorithm used is the stacking one because the music one has the boundary [number of sources < number of microphones]. Every line is a compilation of 50 runs each done with a noise of 20 decibel. EA stands for error average}
+    \label{table:2mic2sources}
+\end{table}
+
+In table \ref{table:2mic2sources} we can see the results for 2 microphones and for 2 sources. In this table the music algorithm is not present because music only works when there is less sources than microphones available. The stacking with LEGO is still doing pretty good but the stacking with KEMAR is pretty bad when searching for 2 sources. This result shows again that the LEGO scattering seems pretty good and helpful. 
+
+

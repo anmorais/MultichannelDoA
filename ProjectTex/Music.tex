@@ -1,0 +1,83 @@
+\section{Music}
+
+In this section we will talk about the Multiple Signal Classification algorithm, mainly known as music. This algorithm is already designed to detect different sources by using several microphones so we don't need to adapt it. The only small adaptation that we will do is that music works for one frequency only so we will adapt it to use several frequencies. What we're interested in learning here is if having a scattering around our microphones actually helps to detect more precisely the direction of arrival of the different sources signal. That is why, as before, we will compare the results of the impulse responses from the LEGO and KEMAR scatterings with the omnidirectional one. Also music has a constraint that is important to note, indeed the number of sources has to be strictly smaller than the number of microphones used to detect them. 
+
+
+\subsection{Description of the impulse response}
+
+The different impulse responses that we will use are the same that we used in the stacking problem, that is why we will not describe them again here as a good enough description is done in section \ref{desc:impulse}.
+
+
+\subsection{Description of the algorithm }
+
+\subsubsection{Setup of the algorithm}
+
+Let's assume S sources at different locations that we will consider in the polar coordinates $\boldsymbol r^S_s = (r_s, \theta _s)$ with s = 1,...,S, we have the same for the N different microphones $\boldsymbol r^M_n $ with n = 1,...,N. Note that in our algorithm we assume a far-field situation meaning that the exact position of the sources is not important and only the angle is used. Furthermore the microphones positions will only be used in the omnidirectional case in order to compute the different transfer functions necessary there. So the observed signal in frequency domain is the following
+
+\begin{equation}
+    M_n(k) = \sum_{s=1}^S V_n(\boldsymbol r^S_s,k)S_s(k) + B_n(k),
+    \label{equ:music}
+\end{equation}
+
+where $M_n(k)$ is the observed signal at the n microphone, $V_n(\boldsymbol r^S_s,k)$ is the $n^{th}$ entry of the steering vector  $\boldsymbol V(\boldsymbol r,k) = (V_1(\boldsymbol r,k), ... ,V_N(\boldsymbol r,k))^T$  that, in our implementation, is equivalent to the transfer functions, $S_s(k)$ is the signal emitted by the source s, $B_n(k)$ is some added noise and k is the frequency \cite{musicRobo}\cite{musciIEEE}. If we define vectors for the observed signal, source signal and the noise as follows $\boldsymbol M(k) = (M_1(k), M_2(k) ..., M_N(k))^T$, $\boldsymbol S(k) = (S_1(k), S_2(k) ..., S_S(k))^T$ and $\boldsymbol B(k) = (B_1(k), B_2(k) ... ,B_N(k))^T$ and a matrix for the steering vector V($\boldsymbol r^S_1, ..., \boldsymbol r^S_S, k$) = ($\boldsymbol V(\boldsymbol r^S_1,k)|...|\boldsymbol V(\boldsymbol r^S_S,k)$) we can redefine equation \ref{equ:music} as a matrix multiplication \cite{musicRobo}
+
+\begin{equation}
+    \boldsymbol M(k) =  V(\boldsymbol r^S_1, ..., \boldsymbol r^S_S, k)\boldsymbol S(k) + \boldsymbol B(k),
+\end{equation}
+
+
+\subsubsection{Algorithm}
+
+The sources are assumed independent, zero-mean stationary and of a frequency $k_0$. Let's assume $\mathcal{I}$ and $\mathcal{O}$ to be the identity and the zero matrices then 
+
+\begin{equation}
+    \Gamma _B = \mathbb{E}[\boldsymbol B \boldsymbol B^H] = \sigma_N^2 \mathcal{I}_{N \times N} \text{ and } \mathbb{E}[\boldsymbol S \boldsymbol B^H] = \mathcal{O}_{S \times N}
+\end{equation}
+
+Music uses the eigendecomposition of the covariance to determine the number of sources and the direction of arrival of each source. The covariance, also called interspectral, matrix $\Gamma _M = \mathbb{E}[\boldsymbol M\boldsymbol M^H]$ is 
+
+\begin{equation}
+    \Gamma _M = (\mathcal{U}_S | \mathcal{U}_N) 
+    \begin{pmatrix}
+        \lambda_1 + \sigma_N^2 &  & \mathcal{O} & | &  \\
+         & \ddots &  & | & \mathcal{O}   \\
+        \mathcal{O} &   & \lambda_S + \sigma_N^2 & | &  \\
+        -- & -- & -- & -- & -- \\
+         & \mathcal{O} &  & | & \sigma_N^2 \mathcal{I}_{N - S}
+    \end{pmatrix}
+    (\mathcal{U}_S | \mathcal{U}_N)^H
+\end{equation}
+
+the $\lambda$ are in descending order $\lambda_1 \geq \lambda_2 \geq ... \geq \lambda_S > 0$. $\mathcal{U}_S$ are the S first eigenvectors and are related to the S greatest eigenvalues ($\lambda_1 + \sigma_N^2 \text{ to } \lambda_S + \sigma_N^2$),  $\mathcal{U}_N$ are the remaining N-S eigenvectors (the eigenvalues equal to $\sigma_N^2$) and are related to the noise space. With that we can deduce the number of sources (N minus the number of repetitions of $\sigma_N^2$) and their locations because their associated steering vector are orthogonal to $\mathcal{U}_N$.
+
+In practice, we don't know $\Gamma_M$ so we compute an approximation on W time snapshots 
+
+\begin{equation}
+    \hat \Gamma_M = \frac{1}{W} \sum_{w=0}^{W-1} \boldsymbol{\hat M}_w(k) \boldsymbol{\hat M}_w^H(k)
+\end{equation}
+
+$\boldsymbol{\hat M}_w(k)$ is a Discrete Fourier Transform approximation of $\boldsymbol M(k)$. And we can find the directions of arrivals of the sound sources by isolating the maximum values of the pseudo-spectrum
+
+\begin{equation}
+    h(r,\theta) = \frac{1}{\boldsymbol V^H(r,\theta) \hat \Pi_\mathcal{N} \boldsymbol V(r,\theta)}
+\end{equation}
+
+All this is just for one frequency so in our algorithm, that we can see in algorithm \ref{alg:Music}, we compute that for each frequency that we have. We add all the pseudo-spectrum together and isolate the maximum value in the sum to be more precise.
+
+\begin{algorithm}[H]
+\caption{Music Localization with scattering}\label{alg:Music}
+  \KwIn{Transfer functions \{$H_j$\}$_{j \in D}$}
+  \KwOut{Directions of arrival $\hat \Theta = \{ \hat \theta _1, \hat \theta _2, ... \hat \theta _L \}$}
+  $Totalspectrum \gets \boldsymbol0$
+  
+  \For{every frequency}{
+    Compute the empirical covariance matrix $\hat \Gamma_M = \frac{1}{W} \sum_{w=0}^{W-1} \boldsymbol{\hat M}_w(k) \boldsymbol{\hat M}_w^H(k)$
+    \\Compute the eigenvectors and the eigenvalues of the covariance matrix
+    \\Compute the spectrum using $h(r,\theta) = \frac{1}{\boldsymbol V^H(r,\theta) \hat \Pi_\mathcal{N} \boldsymbol V(r,\theta)}$
+    \\$Totalspectrum \gets Totalspectrum + spectrum$
+    }
+    $\hat J \gets  argmax(TotalSpectrum)$
+    \\$\hat \Theta \gets \{\theta _j | j \in \hat J\} $
+\end{algorithm}
+    
+The algorithm \ref{alg:Music} is the pseudo code for the music algorithm that we wrote and as we can see it follows all the steps described before.

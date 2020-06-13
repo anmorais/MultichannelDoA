@@ -1,0 +1,149 @@
+\documentclass[10pt]{article}
+\usepackage[a4paper,left=1.5cm,right=1.5cm,top=3cm,bottom=2cm]{geometry}
+\usepackage{tikz}
+\usetikzlibrary{snakes}
+\usepackage{tikz}
+\usetikzlibrary{matrix}
+\usepackage{geometry}              
+\geometry{a4paper}
+\geometry{hmargin=2.5cm,vmargin=1.5cm}
+\usepackage[utf8]{inputenc}	
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+\usepackage[cyr]{aeguill}
+\usepackage{epsfig}
+\usepackage{amsmath, amsthm}
+\usepackage[final]{pdfpages}
+\geometry{vmargin=4cm}
+\usepackage{multirow}
+\usepackage{listings}
+\usepackage{colortbl}
+\usepackage{xcolor,colortbl}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{setspace}
+\usepackage[T1]{fontenc}
+\DeclareUnicodeCharacter{00A0}{ }
+\usepackage{url}
+\usepackage[final]{pdfpages}
+%\usepackage[numbers]{natbib}
+\usepackage[english]{babel}
+%\usepackage[]{natbib}
+\usepackage{pdfpages}
+\usepackage{mathenv}
+\usepackage{amsmath}
+\usepackage{fourier-orns}
+\usepackage{multicol}
+\usepackage{wasysym}
+\usepackage[squaren, Gray, cdot]{SIunits}
+\graphicspath{{image/}} %chemin par défaut pour aller chercher les images 
+\usepackage{float} %permet de forcer le placement d'une image avec [H] au lieu de [!h] ou [h]
+\graphicspath{{Figures/}}
+\usepackage{lmodern}  % Package pour caractères spéciaux
+\usepackage{mathrsfs}   % Package pour caractères spéciaux
+%\usepackage{caption}
+\usepackage{array} %package pour tableaux
+\usepackage{subscript}
+\usepackage{hyperref}
+%\usepackage{subcaption}%pour pouvoir utiliser subfigure (utile pour mettre plusieurs images cote à cote)
+\usepackage{subfig}
+\usepackage{subfiles}
+\usepackage{minted} % pour les codes
+\usepackage[algoruled,boxed,lined]{algorithm2e} %pour le pseudo code
+
+\usepackage[titletoc,toc]{appendix}%pour bien afficher ANNEXES au debut des annexes (uniquement nécéssaire dans la classe articles sinon ne s'affiche pas) + OPTION [titletoc,toc] pour qu'elle soit dans la TOC (=sommaire)
+
+\usepackage{geometry} %sert pour mettre les mises en plan en grand dans le rapport
+\usepackage{pdflscape} %sert pour mettre les mises en plan en grand dans le rapport
+\usepackage{enumitem} %permet d'utiliser des PUCES d'énumérations
+%\usepackage[latin]{inputenc}
+\usepackage[cyr]{aeguill}
+%\setlength{\parindent}{0cm}
+\setlength{\parskip}{1ex plus 0.5ex minus 0.2ex}
+\newcommand{\hsp}{\hspace{20pt}}
+
+%\documentclass[a4paper]{article}
+%\usepackage[english]{babel}
+%\usepackage[utf8x]{inputenc}
+%\usepackage{amsmath}
+%\usepackage{graphicx}
+%\usepackage[colorinlistoftodos]{todonotes}
+
+\usepackage[
+backend=biber,
+style=alphabetic,
+sorting=ynt
+]{biblatex}
+
+\addbibresource{bibliography.bib} %Imports bibliography file
+
+\begin{document}
+\title{Semester Project}
+
+\begin{titlepage}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+
+\center % Center everything on the page
+
+%\textsc{\Large College of Management of Technology}\\[0.5cm]
+
+\centering
+\includegraphics[scale=0.2]{EPFL-Logo.png}\\[1.5cm] % Include a department/university logo - this will require the graphicx package
+
+%\textsc{\Large Project}\\[0.5cm] % Major heading such as course name 
+
+%\textsc{\large Project}\\[0.2cm]
+
+\HRule \\[0.4cm]
+    { \huge \bfseries Multichannel DOA\\[0.4cm] } % Title of your document
+\HRule \\[1.cm]
+
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Student :}\\
+
+Antonio \textsc{Morais}\\
+
+\end{flushleft}
+\end{minipage}
+~
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\emph{Supervisor :}\\
+Dalia \textsc{El Badawy}\\
+\emph{Professor :}\\
+Adam \textsc{Scholefield}\\
+
+% Supervisor's Name
+\end{flushright}
+\end{minipage}\\[4cm]
+
+
+\text{\today}\\[2cm] % Date, change the \today to a set date if you want to be precise
+
+\end{titlepage}
+
+\newpage
+\tableofcontents
+\newpage
+
+% Ecrivez dans les fichiers de chaque partie directement :)
+
+\subfile{Introduction}
+\newpage
+\subfile{Stacking}
+\newpage
+\subfile{Music}
+\newpage
+\subfile{Results}
+\newpage
+\subfile{pyroomAcoustics}
+\newpage
+\subfile{Conclusion}
+\newpage
+
+\printbibliography
+
+\end{document}
