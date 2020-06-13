@@ -1,0 +1,15 @@
+shoebox
+room_dim 10,10
+distance 2
+
+
+
+    '''
+    The position of the mics has a huge importance, even if in the rir i only returned the response[:, closestAngle]
+    of the first angle (meaning not the echo) when having an anechoic configuration for my room (absorption = 1
+    and max_order = 0) meaning that i don't change the response to add delay because of the distance and so on
+    It still has a huge difference when changing the position of the mics which should not happen if it was 
+    only taking in account the rir
+    cf pyroomacousticsdata 3 and 4 that both return just response but with different position
+    '''
+

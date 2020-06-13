@@ -1,0 +1,108 @@
+2020-05-28 21:03:45,405 Using transfer functions lego
+2020-05-28 21:03:45,405 Number of runs 50
+2020-05-28 21:03:45,405 Noise in decibel 5.0
+2020-05-28 21:03:45,405 Number of sources 1
+2020-05-28 21:03:45,405 Absorption of the walls 1.0
+2020-05-28 21:03:45,405 Max order (order of the echos) 0
+2020-05-28 21:03:45,474 Radius 0.075
+2020-05-28 21:03:51,621 Test 0, Actual DoAs: [264], MUSIC DoAs: [325], err: 61.0
+2020-05-28 21:03:51,678 Radius 0.075
+2020-05-28 21:03:57,942 Test 1, Actual DoAs: [272], MUSIC DoAs: [276], err: 4.0
+2020-05-28 21:03:57,994 Radius 0.075
+2020-05-28 21:04:04,283 Test 2, Actual DoAs: [26], MUSIC DoAs: [103], err: 77.0
+2020-05-28 21:04:04,337 Radius 0.075
+2020-05-28 21:04:10,458 Test 3, Actual DoAs: [324], MUSIC DoAs: [301], err: 23.0
+2020-05-28 21:04:10,509 Radius 0.075
+2020-05-28 21:04:16,650 Test 4, Actual DoAs: [182], MUSIC DoAs: [208], err: 26.0
+2020-05-28 21:04:16,704 Radius 0.075
+2020-05-28 21:04:22,891 Test 5, Actual DoAs: [330], MUSIC DoAs: [358], err: 28.0
+2020-05-28 21:04:22,943 Radius 0.075
+2020-05-28 21:04:29,168 Test 6, Actual DoAs: [292], MUSIC DoAs: [311], err: 19.0
+2020-05-28 21:04:29,222 Radius 0.075
+2020-05-28 21:04:35,422 Test 7, Actual DoAs: [80], MUSIC DoAs: [80], err: 0.0
+2020-05-28 21:04:35,474 Radius 0.075
+2020-05-28 21:04:41,767 Test 8, Actual DoAs: [358], MUSIC DoAs: [356], err: 2.0
+2020-05-28 21:04:41,822 Radius 0.075
+2020-05-28 21:04:47,995 Test 9, Actual DoAs: [210], MUSIC DoAs: [213], err: 3.0
+2020-05-28 21:04:48,049 Radius 0.075
+2020-05-28 21:04:54,306 Test 10, Actual DoAs: [164], MUSIC DoAs: [67], err: 97.0
+2020-05-28 21:04:54,359 Radius 0.075
+2020-05-28 21:05:00,543 Test 11, Actual DoAs: [222], MUSIC DoAs: [27], err: 165.0
+2020-05-28 21:05:00,599 Radius 0.075
+2020-05-28 21:05:06,841 Test 12, Actual DoAs: [340], MUSIC DoAs: [335], err: 5.0
+2020-05-28 21:05:06,896 Radius 0.075
+2020-05-28 21:05:13,075 Test 13, Actual DoAs: [46], MUSIC DoAs: [116], err: 70.0
+2020-05-28 21:05:13,134 Radius 0.075
+2020-05-28 21:05:19,657 Test 14, Actual DoAs: [296], MUSIC DoAs: [311], err: 15.0
+2020-05-28 21:05:19,745 Radius 0.075
+2020-05-28 21:05:27,108 Test 15, Actual DoAs: [190], MUSIC DoAs: [194], err: 4.0
+2020-05-28 21:05:27,161 Radius 0.075
+2020-05-28 21:05:33,392 Test 16, Actual DoAs: [342], MUSIC DoAs: [19], err: 37.0
+2020-05-28 21:05:33,447 Radius 0.075
+2020-05-28 21:05:39,655 Test 17, Actual DoAs: [128], MUSIC DoAs: [308], err: 180.0
+2020-05-28 21:05:39,709 Radius 0.075
+2020-05-28 21:05:45,901 Test 18, Actual DoAs: [148], MUSIC DoAs: [29], err: 119.0
+2020-05-28 21:05:45,959 Radius 0.075
+2020-05-28 21:05:52,113 Test 19, Actual DoAs: [60], MUSIC DoAs: [59], err: 1.0
+2020-05-28 21:05:52,165 Radius 0.075
+2020-05-28 21:05:58,449 Test 20, Actual DoAs: [152], MUSIC DoAs: [97], err: 55.0
+2020-05-28 21:05:58,505 Radius 0.075
+2020-05-28 21:06:04,737 Test 21, Actual DoAs: [290], MUSIC DoAs: [314], err: 24.0
+2020-05-28 21:06:04,793 Radius 0.075
+2020-05-28 21:06:10,974 Test 22, Actual DoAs: [262], MUSIC DoAs: [275], err: 13.0
+2020-05-28 21:06:11,028 Radius 0.075
+2020-05-28 21:06:17,314 Test 23, Actual DoAs: [80], MUSIC DoAs: [80], err: 0.0
+2020-05-28 21:06:17,369 Radius 0.075
+2020-05-28 21:06:23,555 Test 24, Actual DoAs: [176], MUSIC DoAs: [185], err: 9.0
+2020-05-28 21:06:23,607 Radius 0.075
+2020-05-28 21:06:30,269 Test 25, Actual DoAs: [300], MUSIC DoAs: [306], err: 6.0
+2020-05-28 21:06:30,329 Radius 0.075
+2020-05-28 21:06:37,198 Test 26, Actual DoAs: [222], MUSIC DoAs: [27], err: 165.0
+2020-05-28 21:06:37,312 Radius 0.075
+2020-05-28 21:06:43,749 Test 27, Actual DoAs: [132], MUSIC DoAs: [137], err: 5.0
+2020-05-28 21:06:43,810 Radius 0.075
+2020-05-28 21:06:50,509 Test 28, Actual DoAs: [220], MUSIC DoAs: [63], err: 157.0
+2020-05-28 21:06:50,570 Radius 0.075
+2020-05-28 21:06:57,830 Test 29, Actual DoAs: [274], MUSIC DoAs: [279], err: 5.0
+2020-05-28 21:06:57,888 Radius 0.075
+2020-05-28 21:07:04,533 Test 30, Actual DoAs: [124], MUSIC DoAs: [76], err: 48.0
+2020-05-28 21:07:04,588 Radius 0.075
+2020-05-28 21:07:11,305 Test 31, Actual DoAs: [246], MUSIC DoAs: [133], err: 113.0
+2020-05-28 21:07:11,371 Radius 0.075
+2020-05-28 21:07:18,201 Test 32, Actual DoAs: [278], MUSIC DoAs: [277], err: 1.0
+2020-05-28 21:07:18,254 Radius 0.075
+2020-05-28 21:07:24,758 Test 33, Actual DoAs: [242], MUSIC DoAs: [259], err: 17.0
+2020-05-28 21:07:24,817 Radius 0.075
+2020-05-28 21:07:31,535 Test 34, Actual DoAs: [300], MUSIC DoAs: [306], err: 6.0
+2020-05-28 21:07:31,593 Radius 0.075
+2020-05-28 21:07:38,721 Test 35, Actual DoAs: [160], MUSIC DoAs: [159], err: 1.0
+2020-05-28 21:07:38,775 Radius 0.075
+2020-05-28 21:07:45,794 Test 36, Actual DoAs: [24], MUSIC DoAs: [41], err: 17.0
+2020-05-28 21:07:45,861 Radius 0.075
+2020-05-28 21:07:52,421 Test 37, Actual DoAs: [348], MUSIC DoAs: [352], err: 4.0
+2020-05-28 21:07:52,476 Radius 0.075
+2020-05-28 21:07:58,987 Test 38, Actual DoAs: [206], MUSIC DoAs: [216], err: 10.0
+2020-05-28 21:07:59,044 Radius 0.075
+2020-05-28 21:08:06,156 Test 39, Actual DoAs: [246], MUSIC DoAs: [133], err: 113.0
+2020-05-28 21:08:06,209 Radius 0.075
+2020-05-28 21:08:12,665 Test 40, Actual DoAs: [296], MUSIC DoAs: [310], err: 14.0
+2020-05-28 21:08:12,727 Radius 0.075
+2020-05-28 21:08:19,270 Test 41, Actual DoAs: [200], MUSIC DoAs: [198], err: 2.0
+2020-05-28 21:08:19,335 Radius 0.075
+2020-05-28 21:08:25,888 Test 42, Actual DoAs: [40], MUSIC DoAs: [32], err: 8.0
+2020-05-28 21:08:25,942 Radius 0.075
+2020-05-28 21:08:32,314 Test 43, Actual DoAs: [256], MUSIC DoAs: [256], err: 0.0
+2020-05-28 21:08:32,370 Radius 0.075
+2020-05-28 21:08:38,694 Test 44, Actual DoAs: [176], MUSIC DoAs: [185], err: 9.0
+2020-05-28 21:08:38,747 Radius 0.075
+2020-05-28 21:08:44,962 Test 45, Actual DoAs: [26], MUSIC DoAs: [103], err: 77.0
+2020-05-28 21:08:45,016 Radius 0.075
+2020-05-28 21:08:51,220 Test 46, Actual DoAs: [130], MUSIC DoAs: [130], err: 0.0
+2020-05-28 21:08:51,279 Radius 0.075
+2020-05-28 21:08:57,661 Test 47, Actual DoAs: [104], MUSIC DoAs: [112], err: 8.0
+2020-05-28 21:08:57,716 Radius 0.075
+2020-05-28 21:09:03,951 Test 48, Actual DoAs: [24], MUSIC DoAs: [41], err: 17.0
+2020-05-28 21:09:04,003 Radius 0.075
+2020-05-28 21:09:10,262 Test 49, Actual DoAs: [146], MUSIC DoAs: [150], err: 4.0
+2020-05-28 21:09:10,315 Err_per_source average: [36.88], median: [13.5], Min_err average: 36.88, median: 13.5
+2020-05-28 21:09:10,316 Err_per_source max: [180.], min: [0.], Min_err max: 180.0, min: 0.0
