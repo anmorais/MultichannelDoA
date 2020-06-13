@@ -1,0 +1,57 @@
+2020-05-20 23:00:10,433 Load transfer functions lego
+2020-05-20 23:00:10,435 Number of runs 50
+2020-05-20 23:00:10,435 Noise in decibel 20
+2020-05-20 23:00:10,435 Number of sources 1
+2020-05-20 23:00:10,462 Number of frequencies 257
+2020-05-20 23:00:11,755 Test 0, Actual DoAs: [38], MUSIC DoAs: [38], err: 0.0
+2020-05-20 23:00:12,936 Test 1, Actual DoAs: [88], MUSIC DoAs: [88], err: 0.0
+2020-05-20 23:00:14,907 Test 2, Actual DoAs: [90], MUSIC DoAs: [90], err: 0.0
+2020-05-20 23:00:16,651 Test 3, Actual DoAs: [164], MUSIC DoAs: [164], err: 0.0
+2020-05-20 23:00:18,451 Test 4, Actual DoAs: [80], MUSIC DoAs: [80], err: 0.0
+2020-05-20 23:00:20,006 Test 5, Actual DoAs: [72], MUSIC DoAs: [72], err: 0.0
+2020-05-20 23:00:21,983 Test 6, Actual DoAs: [106], MUSIC DoAs: [106], err: 0.0
+2020-05-20 23:00:23,782 Test 7, Actual DoAs: [162], MUSIC DoAs: [162], err: 0.0
+2020-05-20 23:00:25,753 Test 8, Actual DoAs: [76], MUSIC DoAs: [76], err: 0.0
+2020-05-20 23:00:27,395 Test 9, Actual DoAs: [158], MUSIC DoAs: [158], err: 0.0
+2020-05-20 23:00:28,941 Test 10, Actual DoAs: [2], MUSIC DoAs: [2], err: 0.0
+2020-05-20 23:00:30,449 Test 11, Actual DoAs: [150], MUSIC DoAs: [150], err: 0.0
+2020-05-20 23:00:31,928 Test 12, Actual DoAs: [46], MUSIC DoAs: [46], err: 0.0
+2020-05-20 23:00:33,448 Test 13, Actual DoAs: [4], MUSIC DoAs: [4], err: 0.0
+2020-05-20 23:00:35,021 Test 14, Actual DoAs: [178], MUSIC DoAs: [96], err: 82.0
+2020-05-20 23:00:36,520 Test 15, Actual DoAs: [158], MUSIC DoAs: [158], err: 0.0
+2020-05-20 23:00:38,053 Test 16, Actual DoAs: [176], MUSIC DoAs: [176], err: 0.0
+2020-05-20 23:00:39,622 Test 17, Actual DoAs: [160], MUSIC DoAs: [160], err: 0.0
+2020-05-20 23:00:41,101 Test 18, Actual DoAs: [140], MUSIC DoAs: [140], err: 0.0
+2020-05-20 23:00:42,649 Test 19, Actual DoAs: [34], MUSIC DoAs: [84], err: 50.0
+2020-05-20 23:00:44,565 Test 20, Actual DoAs: [76], MUSIC DoAs: [76], err: 0.0
+2020-05-20 23:00:46,080 Test 21, Actual DoAs: [132], MUSIC DoAs: [132], err: 0.0
+2020-05-20 23:00:47,541 Test 22, Actual DoAs: [80], MUSIC DoAs: [80], err: 0.0
+2020-05-20 23:00:49,361 Test 23, Actual DoAs: [130], MUSIC DoAs: [130], err: 0.0
+2020-05-20 23:00:50,926 Test 24, Actual DoAs: [90], MUSIC DoAs: [90], err: 0.0
+2020-05-20 23:00:52,887 Test 25, Actual DoAs: [70], MUSIC DoAs: [70], err: 0.0
+2020-05-20 23:00:54,259 Test 26, Actual DoAs: [144], MUSIC DoAs: [144], err: 0.0
+2020-05-20 23:00:55,659 Test 27, Actual DoAs: [34], MUSIC DoAs: [34], err: 0.0
+2020-05-20 23:00:57,228 Test 28, Actual DoAs: [84], MUSIC DoAs: [84], err: 0.0
+2020-05-20 23:00:59,103 Test 29, Actual DoAs: [148], MUSIC DoAs: [148], err: 0.0
+2020-05-20 23:01:00,613 Test 30, Actual DoAs: [94], MUSIC DoAs: [94], err: 0.0
+2020-05-20 23:01:01,933 Test 31, Actual DoAs: [148], MUSIC DoAs: [148], err: 0.0
+2020-05-20 23:01:03,520 Test 32, Actual DoAs: [156], MUSIC DoAs: [156], err: 0.0
+2020-05-20 23:01:04,717 Test 33, Actual DoAs: [0], MUSIC DoAs: [80], err: 80.0
+2020-05-20 23:01:06,701 Test 34, Actual DoAs: [22], MUSIC DoAs: [22], err: 0.0
+2020-05-20 23:01:09,004 Test 35, Actual DoAs: [78], MUSIC DoAs: [78], err: 0.0
+2020-05-20 23:01:10,934 Test 36, Actual DoAs: [32], MUSIC DoAs: [32], err: 0.0
+2020-05-20 23:01:12,960 Test 37, Actual DoAs: [98], MUSIC DoAs: [98], err: 0.0
+2020-05-20 23:01:14,495 Test 38, Actual DoAs: [140], MUSIC DoAs: [140], err: 0.0
+2020-05-20 23:01:15,891 Test 39, Actual DoAs: [148], MUSIC DoAs: [148], err: 0.0
+2020-05-20 23:01:17,352 Test 40, Actual DoAs: [80], MUSIC DoAs: [80], err: 0.0
+2020-05-20 23:01:18,700 Test 41, Actual DoAs: [150], MUSIC DoAs: [150], err: 0.0
+2020-05-20 23:01:19,956 Test 42, Actual DoAs: [132], MUSIC DoAs: [132], err: 0.0
+2020-05-20 23:01:21,168 Test 43, Actual DoAs: [170], MUSIC DoAs: [170], err: 0.0
+2020-05-20 23:01:22,459 Test 44, Actual DoAs: [122], MUSIC DoAs: [122], err: 0.0
+2020-05-20 23:01:23,960 Test 45, Actual DoAs: [104], MUSIC DoAs: [104], err: 0.0
+2020-05-20 23:01:25,200 Test 46, Actual DoAs: [114], MUSIC DoAs: [114], err: 0.0
+2020-05-20 23:01:26,457 Test 47, Actual DoAs: [78], MUSIC DoAs: [78], err: 0.0
+2020-05-20 23:01:27,720 Test 48, Actual DoAs: [0], MUSIC DoAs: [80], err: 80.0
+2020-05-20 23:01:28,923 Test 49, Actual DoAs: [176], MUSIC DoAs: [176], err: 0.0
+2020-05-20 23:01:28,924 Err_per_source average: [2.92], median: [0.], Min_err average: 5.84, median: 0.0
+2020-05-20 23:01:28,925 Err_per_source max: [41.], min: [0.], Min_err max: 82.0, min: 0.0
